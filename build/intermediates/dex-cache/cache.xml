@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="118df944e00215a60e51f4a79d1fe32534c1a746">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4505d63fa76ac4f0f85d87459345e3a22ec1d2ec.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b6c7a59c5a05a5db7b66aebfc955fab478da68c7">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/instant-run_4e70d82e0faa1fed60a141971d83470f7c349764.jar" />
+    </item>
+
+</items>
