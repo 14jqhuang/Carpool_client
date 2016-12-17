@@ -23,6 +23,8 @@ import com.example.sheng.carpool.Data.PublicData;
 import com.example.sheng.carpool.ListViewHelp.PeopleInfoListAdapter;
 import com.example.sheng.carpool.R;
 
+import org.androidpn.client.Constants;
+
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
@@ -93,6 +95,7 @@ public class Register extends Activity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> map = new HashMap<String,String>();
+                Constants.XMPP_NAME = str_register_num_input;
                 map.put("type","register");
                 map.put("account",str_register_num_input);
                 map.put("password",str_register_password_input);

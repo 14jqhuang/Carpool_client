@@ -38,6 +38,7 @@ import com.example.sheng.carpool.ListViewHelp.CommentAddListAdapter;
 import com.example.sheng.carpool.ListViewHelp.CommentInfoListAdapter;
 import com.example.sheng.carpool.ListViewHelp.PeopleInfoListAdapter;
 import com.example.sheng.carpool.R;
+import com.example.sheng.carpool.deliver.SendtoUser;
 import com.example.sheng.carpool.helpers.JsonOperation;
 import com.example.sheng.carpool.helpers.LogOut;
 import com.google.gson.Gson;
@@ -173,6 +174,7 @@ public class Search_case extends Activity {
             @Override
             public void onResponse(String response) {
                 if(response.equals(PublicData.TRUE_RETURN)){
+
                     Toast.makeText(Search_case.this,"加入成功",Toast.LENGTH_SHORT).show();
                 }
              //   Toast.makeText(Search_case.this,response,Toast.LENGTH_SHORT).show();

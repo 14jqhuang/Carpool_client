@@ -397,7 +397,7 @@ public class XmppManager {
                                             newUsername);
                                     editor.putString(Constants.XMPP_PASSWORD,
                                             newPassword);
-                                    editor.putString(Constants.XMPP_NAME,"tomyca");
+                                    editor.putString(Constants.XMPP_NAME,Constants.XMPP_NAME);
                                     editor.commit();
                                     isRegister = false;
                                     Log
@@ -423,7 +423,7 @@ public class XmppManager {
                 // registration.setAttributes(attributes);
                 registration.addAttribute("username", newUsername);
                 registration.addAttribute("password", newPassword);
-                registration.addAttribute("name", "tomyca");
+                registration.addAttribute("name", Constants.XMPP_NAME);
                 connection.sendPacket(registration);
                 //ע��ʧ��ʱ
                 try {

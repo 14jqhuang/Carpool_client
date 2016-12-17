@@ -97,11 +97,6 @@ public class Login extends Activity {
                 if(response.equals(PublicData.TRUE_RETURN)){
                     //保存账号和密码要本地
                     saveAccountPwToLoacl();
-                    //Login successfully, then start the notification.
-                    ServiceManager serviceManager = new ServiceManager(Login.this);
-                    serviceManager.setNotificationIcon(R.drawable.notification);
-                    serviceManager.startService();
-                    
                     finish();
                 }
                 else {
