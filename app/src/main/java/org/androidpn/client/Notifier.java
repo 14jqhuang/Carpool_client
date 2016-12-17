@@ -67,19 +67,7 @@ public class Notifier {
                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
             }
 
-            // Notification
-            Notification notification = new Notification();
-            notification.icon = getNotificationIcon();
-            notification.defaults = Notification.DEFAULT_LIGHTS;
-            if (isNotificationSoundEnabled()) {
-                notification.defaults |= Notification.DEFAULT_SOUND;
-            }
-            if (isNotificationVibrateEnabled()) {
-                notification.defaults |= Notification.DEFAULT_VIBRATE;
-            }
-            notification.flags |= Notification.FLAG_AUTO_CANCEL;
-            notification.when = System.currentTimeMillis();
-            notification.tickerText = message;
+
 
             //            Intent intent;
             //            if (uri != null
@@ -113,9 +101,27 @@ public class Notifier {
 
             PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
                     intent, PendingIntent.FLAG_UPDATE_CURRENT);
+            // Notification
+            Notification notification = new Notification.Builder(context)
+                    .setContentTitle("tomy")
+                    .setContentText("Hello world")
+                    .setSmallIcon(android.R.drawable.ic_notification_overlay)
+                    .build();
+            //Notification notification = new Notification();
+            notification.icon = getNotificationIcon();
+            notification.defaults = Notification.DEFAULT_LIGHTS;
 
-            notification.setLatestEventInfo(context, title, message,
-                    contentIntent);
+            if (isNotificationSoundEnabled()) {
+                notification.defaults |= Notification.DEFAULT_SOUND;
+            }
+            if (isNotificationVibrateEnabled()) {
+                notification.defaults |= Notification.DEFAULT_VIBRATE;
+            }
+            notification.flags |= Notification.FLAG_AUTO_CANCEL;
+            notification.when = System.currentTimeMillis();
+            notification.tickerText = message;
+//            notification.setLatestEventInfo(context, title, message,
+//                    contentIntent);
             notificationManager.notify(random.nextInt(), notification);
 
             //            Intent clickIntent = new Intent(

@@ -4,29 +4,21 @@
     api-level="19"
     density="hdpi"
     format="7"
-    timestamp="1997327558368" >
+    timestamp="8161506916065" >
 
     <task
         name="javac"
-        duration="2695" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1076" />
+        duration="0" />
     <task
         name="verifier"
-        duration="132" />
+        duration="0" />
 
-    <artifact
-        location="/home/tomyca/Downloads/androidpn-client/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="1997327558368" >
-        <artifact
-            location="/home/tomyca/Downloads/androidpn-client/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
-    </build>
+    <build timestamp="8161506916065" />
 
 </instant-run>
