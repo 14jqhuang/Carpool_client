@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.androidpn.demoapp"
-    android:versionCode="20101028"
-    android:versionName="0.5.0" >
+    package="org.androidpn.demoapp" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -16,17 +14,31 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:icon="@drawable/icon"
-        android:label="@string/app_name" >
-        <activity
-            android:name="org.androidpn.demoapp.DemoAppActivity"
-            android:label="@string/app_name" >
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.sheng.carpool.activities.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+		//整合
+        <activity android:name="com.example.sheng.carpool.activities.Register" />
+        <activity android:name="com.example.sheng.carpool.activities.Login" />
+        <activity android:name="com.example.sheng.carpool.activities.Reset" />
+        <activity android:name="com.example.sheng.carpool.activities.Forget" />
+        <activity android:name="com.example.sheng.carpool.activities.Search" />
+        <activity android:name="com.example.sheng.carpool.activities.SeeInfo" />
+        <activity android:name="com.example.sheng.carpool.activities.Message" />
+        <activity android:name="com.example.sheng.carpool.activities.Case" />
+        <activity android:name="com.example.sheng.carpool.activities.CaseInOwn" />
+        <activity android:name="com.example.sheng.carpool.activities.Search_link" />
+        <activity android:name="com.example.sheng.carpool.activities.Search_case" />
+		//整合
         <activity
             android:name="org.androidpn.client.NotificationDetailsActivity"
             android:label="Notification Details" >

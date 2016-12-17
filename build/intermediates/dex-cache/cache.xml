@@ -5,15 +5,71 @@
         jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="6e487c94ebbe9c8d92ea133262c79c964951d867">
+        sha1="8a77bb957f8111d58601ac48db7cb844acfc02dc">
         <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4505d63fa76ac4f0f85d87459345e3a22ec1d2ec.jar" />
     </item>
     <item
         jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="25.0.0"
-        sha1="f6493df610aacb0e3de3d2310158710fc7ea6d21">
+        sha1="63e42aeed00b31faff925b63e3bfda125f3c1e62">
         <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/instant-run_4e70d82e0faa1fed60a141971d83470f7c349764.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_05f6067dc3c8f9a76861a5151a5187b495125bf7.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_ee2f692d7d236454d272b5442b8d240d3363aeac.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_2425c2d126d07f05c0f2513e4d997f12268cf905.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.6/b2e6988baeea1aed656995f973aaa2fc3feaf447/library-1.0.6.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="b2e6988baeea1aed656995f973aaa2fc3feaf447">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/library-1.0.6_2bdaf4fba73daa4ca6ffc4640eec9a366fdeddda.jar" />
+    </item>
+    <item
+        jar="/software/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_accd4f56a1674380d375193fde003b86b8cb64c8.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_31b1ac2ebde4b9b13b213c4b28469c5febb02007.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_422e692cdf1a58ca4a2a30d126992d75af994dfb.jar" />
+    </item>
+    <item
+        jar="/home/tomyca/Downloads/androidpn-client/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/home/tomyca/Downloads/androidpn-client/app/build/intermediates/pre-dexed/debug/gson-2.2.4_9964554a1e1c0692aa087a0d89ce886660e20cfe.jar" />
     </item>
 
 </items>

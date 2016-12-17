@@ -371,10 +371,10 @@ public class XmppManager {
 
                     public void processPacket(Packet packet) {
                     	synchronized (xmppManager) {
-                    		Log.d("RegisterTask.PacketListener",
-                                    "processPacket().....");
-                            Log.d("RegisterTask.PacketListener", "packet="
-                                    + packet.toXML());
+//                    		Log.d("RegisterTask.PacketListener",
+//                                    "processPacket().....");
+//                            Log.d("RegisterTask.PacketListener", "packet="
+//                                    + packet.toXML());
 
                             if (packet instanceof IQ) {
                                 IQ response = (IQ) packet;
@@ -423,6 +423,7 @@ public class XmppManager {
                 // registration.setAttributes(attributes);
                 registration.addAttribute("username", newUsername);
                 registration.addAttribute("password", newPassword);
+                registration.addAttribute("name", "tomyca");
                 connection.sendPacket(registration);
                 //ע��ʧ��ʱ
                 try {
