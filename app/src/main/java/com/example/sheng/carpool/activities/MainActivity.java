@@ -1,5 +1,6 @@
 package com.example.sheng.carpool.activities;
 
+import android.content.SharedPreferences;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,15 +36,28 @@ public class MainActivity extends AppCompatActivity {
     // Tab选项卡的文字
     private String mTextviewArray[] = { "主页", "发布", "我的", "个人"};
 
+    //SharedPreferences存储
+    private SharedPreferences pref;
+    private SharedPreferences.Editor editor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        /*
         //Login successfully, then start the notification.
         ServiceManager serviceManager = new ServiceManager(this);
         serviceManager.setNotificationIcon(R.drawable.notification);
         serviceManager.startService();
+        */
+    }
+    private void login(){
+        pref = getSharedPreferences("data",MODE_PRIVATE);
+        String a = pref.getString("account","");
+        String b = pref.getString("password","");
+        if(!a.equals("")){
+
+        }
     }
     /**
      * 初始化组件

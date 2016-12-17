@@ -94,13 +94,14 @@ public class Search_case extends Activity {
     private SharedPreferences.Editor editor;
     private String account = "";
     private String carpoolID ="";
+    //Composite
+    private CarpoolInfo carpoolInfo = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_case);
         final Intent intent = getIntent();
         String data = intent.getStringExtra("carpool");
-        CarpoolInfo carpoolInfo = null;
         if(!data.equals("")){
             carpoolInfo = AnalyseJson.getInstance(data,CarpoolInfo.class);
             carpoolID = ""+ carpoolInfo.getCARPOOLID();
@@ -382,6 +383,12 @@ public class Search_case extends Activity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
+                /*
+                //向用户发送即时消息
+                SendtoUser send = new SendtoUser();
+                send.sendToUser("type=0&param="+carpoolInfo.getAccount());
+                Log.d("sendtoServer: ",carpoolInfo.getAccount());
+                */
                 //加入处理。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
                 add();
             }

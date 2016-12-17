@@ -115,6 +115,7 @@ public class Register extends Activity {
                     if(FillIn()){
                         if(str_register_password_input.equals(str_register_again_password_input)){
                             register();
+
                         }
                         else {
                             Toast.makeText(Register.this,"两次输入的密码不一样",Toast.LENGTH_SHORT).show();
